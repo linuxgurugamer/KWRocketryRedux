@@ -1,0 +1,30 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "KWRocketry-wExtras",
+    "$kref"        : "#/ckan/kerbalstuff/67",
+    "license"      : "CC-BY-SA-3.0",
+    "name"         : "KW Rocketry",
+    "abstract"     : "KW Rocketry is the premiere modpack produced by Kickasskyle and Winston. Built originally for KSP version .15, KW Rocketry has seen many iterations, and has been reworked for KSP version .22 up to what we see now. KW Rocketry was originally produced as a pack meant to add more parts with realistic balance to KSP, with a focus on VAB built vehicles. KSP has been widely used, however, for everything from fuel stations to shuttles and has seen many fan built craft posted on the KSP official forums.",
+    "depends"      : [
+        { "name" : "KWRocketry-CommunityFixes" },
+    ],
+    "suggests" : [
+        { "name" : "KWRocketry-CommunityFixes-interstage"  },
+following needs repackaging, it overwrites files
+        { "name" : "KWRocketry-InstantPowerResponse"  },
+        { "name" : "KWRocketry-oldFARFairings"  },
+
+following not doable, overwrites squad files
+        { "name" : "KWRocketry-ReduceClampSounds" },
+
+Following not doable, no Subassemblies in root:
+#        { "name" : "KWRocketry-Subassemblies4DefaultFairings"  },
+#        { "name" : "KWRocketry-Subaddemblies4legacyFAR"  }
+    ],
+    "install"      : [
+        {
+            "find"      : "KWRocketry",
+            "install_to": "GameData"
+        }
+    ]
+}

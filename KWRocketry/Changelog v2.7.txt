@@ -1,0 +1,85 @@
+Changelog:
+
+Updated to 2.7
+- 1.02 compatibility update.
+- Rebalanced ISPs to account for new aerodynamics.
+- Rebalanced and changed thermal properties to account for the new system.
+- Converted the majority of textures to .dds producing an overall ram saving of about 25%.
+- Updated engines with the latest FX modules.
+- Fixed node issues brought on by v1.0 update.
+- Old FAR compatible fairings moved to extras folder.
+- New procedural fairings added until a better alternative is utilised.
+- Parts in defunct research nodes have been moved to the next best alternative.
+- Subassemblies split into legacy (for old FAR compatible fairings) and default (for the new default procedural fairings).
+- Misc Minor bugfixes.
+
+Updated to 2.6d
+-.25 Compatibility Update
+-Scaling Issues fixed
+-Minor bugfixes
+-Entry costs revised
+
+Updated to v2.6c
+-Minor bugfixing update.
+-Corrected errors related to decouple sounds.
+-Corrected errors related to 3m fuel tank cost.
+-Corrected model linking errors.
+-Fixed several small node errors causing minor gaps.
+-Altered scaling system to cure scaling issues.
+-Discovered and removed a few redundant files.
+
+
+Updated to v2.6b
+-Minor bugfixing update.
+-Corrected errors in the "NoAutoShroudConfigs" that permanently attached shrouds.
+-Fixed the "ReduceClampSounds" calling from an out of date config file.
+-Fixed the 1m shroud decoupler not being correctly labeled as a part.
+-Fixed the shroud decouplers not calling up any sounds.
+-Tweaked the 2m Maverick engine ignition sound volume from 1.5 to 1.7.
+-Reduced the volume of the SRB engine looping sound for the 0.75m Aero SRBs.
+
+Updated to v2.6
+-Added:
+	- 5m Fairings, nosecones and interstage shrouds.
+	- 5m Fuel tanks at L0.5, L1.5, L3.5 sizes.
+	- Griffon Century added, a 5m heavy lifting engine.
+	- Titan V added, a mid-powered heavy upper stage engine.
+	- Globe X-10L & X-10S Inline 2m solid rocket boosters.
+	- 5m ASAS.
+	- Various extra adapters.
+	- Animated 3x2m petal adapter shroud for landers.
+	- Larger seperation engine.
+	- All fuel tanks remodelled and retextured, 0.5L sizes added to 1-3m.
+
+-Revised:
+	- All fuel tanks remodelled and retextured to reduce memory footprint.
+	- Fairing textures combined to reduce memory footprint.
+	- Existing engines have been converted to the new FX system and utilise various new stock FX.
+	- Specular maps have been drastically improved on the majority of parts adding alot more visual depth.
+	- Flag decals added to all the longest tanks and the new Globe X-10 series.
+	- SPS is now fuelled by monopropellant.
+        - Sound effect tweaks.
+
+-Balance
+	- All prices reworked to be more inline with stock.
+	- Research reworked to be more inline with stock requirements.
+	- Minor retweaks to existing engines, srbs and fuel tanks. 1m Vesta engine rebalanced to be more inline with balanced progression.
+	- Power response added to engines relative to their role or size. eg. GriffonXX has a relatively slow throttle up time due to it being a large stage 1 lifting engine.
+
+-Misc
+	-Textures and sounds moved/combined to reduce memory footprint, where possible.
+	-Added an extra top node to the majority of engines, this extra node allows for manual shrouds/adaptershrouds to be placed without triggering the automatic shrouds.
+
+
+Updated to v2.5.6B
+-Fixed the new docking rings not working correctly.
+
+Updated to v2.5.6
+-Added revised sounds to remove a static distortion (audiophiles and headphone users rejoice).
+-Added new parts:
+-Dual 3/2m Docking Ring.
+-Rebalanced SRB thrusts to have more continuity.
+-Revised SRB thrusts to work with tweakables, new thrusts are designed off of the median (50% thrust limited) values.
+-Resized Globe X (X-2) SRBs & nozzle so that they correct attach onto 1m parts.
+-Removed Globe X-5 HT, made redundant by tweakables.
+-Engines have extra partfile sections added in to prevent alternator tweakables causing issues.

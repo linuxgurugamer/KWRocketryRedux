@@ -1,0 +1,17 @@
+{
+	"NAME":"KWRocketryRedux",
+	"URL":"http://ksp-avc.cybutek.net/version.php?id=272",
+	"VERSION":
+	{
+		"MAJOR":3,
+		"MINOR":0,
+		"PATCH":0,
+		"BUILD":0
+	},
+	"KSP_VERSION":
+	{
+		"MAJOR":1,
+		"MINOR":1,
+		"PATCH":0
+	}
+}

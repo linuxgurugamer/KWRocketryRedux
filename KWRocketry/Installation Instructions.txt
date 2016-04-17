@@ -1,0 +1,45 @@
+These are the instructions to install the KWRocketryRedux.
+
+IMPORTANT:  You MUST install one of the two power response directories,
+otherwise the engines will not work.
+
+
+How to install:
+Firstly, Insure any older version of KW has been removed. (GameData/KWRocketry)
+
+
+----MAIN INSTALLATION----
+Now, for a normal install simply unpack the GameData folder included in the download 
+>> MERGING << the folders when prompted. 
+
+----POWER RESPONSE ----
+There are two different power response configs.  One is an instant response,
+similar to stock, and the second is a graduated power response, where it takes
+the engines a few seconds spool up to full thrust
+
+----GRADUATED POWER RESPONSE ----
+For the graduated power response on engines 
+you have to extract the GameData folder contained within the Extras/GraduatedPowerResponseConfigs 
+folder after having previously installed KW Rocketry as above.You should merge and overwrite 
+the parts files when prompted and this should mean your engines have instant power response. 
+
+----INSTANT POWER RESPONSE ----
+For alteratively instant power response on engines 
+you have to extract the GameData folder contained within the Extras/InstantPowerResponseConfigs 
+folder after having previously installed KW Rocketry as above.You should merge and overwrite 
+the parts files when prompted and this should mean your engines have instant power response. 
+
+The following are optional:
+
+----REDUCED CLAMP SOUNDS (RECOMMENDED)----
+A replacement sound file for the stock launch clamp as by default it drowns out our
+custom sound effects.
+Reduced Clamp sound installation is similar to that above, extract the GameData 
+folder from within Extras/ReduceClampSounds.
+
+
+----SUB ASSEMBLIES----
+To install the subassemblies, simply extract the folder labeled Subassemblies located 
+within the Extras folder into your KSP save folder of choice, for example:
+
+Kerbal Space Program/saves/(SaveGameName)/

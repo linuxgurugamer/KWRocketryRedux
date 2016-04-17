@@ -1,0 +1,18 @@
+{
+	"spec_version"	: "v1.4",
+	"identifier"	: "KWRocketry-InstantPwr",
+	"$kref"			: "#/ckan/kerbalstuff/67",
+	"license"		: "CC-BY-SA-3.0",
+	"name"			: "Instant Power Response Configs",
+	"abstract"		: "For instant power response on engines",
+	"provides"		: [ "KWPowerCurves" ],
+	"conflicts" : [
+		{ "name" : "KWPowerCurves" }
+	],
+	"install"		: [
+		{
+			"find"	 : "Extras/InstantPowerResponseConfigs/GameData/KWRocketry",
+			"install_to":"GameData"
+		}
+	]
+} 

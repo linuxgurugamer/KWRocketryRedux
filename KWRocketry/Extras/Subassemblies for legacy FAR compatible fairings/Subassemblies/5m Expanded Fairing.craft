@@ -1,0 +1,249 @@
+ship = 5m Expanded Fairing
+version = 0.24.0
+description = A 5m expanded fairing sub-assembly.
+type = VAB
+PART
+{
+	part = KW5mExpandedFairingBase_4294755998
+	partName = Part
+	pos = -24.23743,8.056862,1.002522
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 1
+	sidx = 0
+	sqor = 0
+	attm = 0
+	link = KW5mExpFairingCone_4294755954
+	link = KW5mExpFairingCone_4294748812
+	attN = connect3,KW5mExpFairingCone_4294748812
+	attN = connect4,KW5mExpFairingCone_4294755954
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		isDecoupled = False
+		EVENTS
+		{
+			Decouple
+			{
+				active = True
+				guiActive = True
+				guiIcon = Decouple
+				guiName = Decouple
+				category = Decouple
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = KW5mExpFairingCone_4294755954
+	partName = Part
+	pos = -25.86243,24.21664,1.002522
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 3
+	sidx = 0
+	sqor = 1
+	attm = 0
+	link = KW5mExpFairingWall_4294755890
+	sym = KW5mExpFairingCone_4294748812
+	attN = connect,KW5mExpFairingWall_4294755890
+	attN = bottom,KW5mExpandedFairingBase_4294755998
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnchoredDecoupler
+		isEnabled = True
+		isDecoupled = False
+		EVENTS
+		{
+			Decouple
+			{
+				active = True
+				guiActive = True
+				guiIcon = Decouple
+				guiName = Decouple
+				category = Decouple
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = KW5mExpFairingWall_4294755890
+	partName = Part
+	pos = -25.86119,18.74096,1.002522
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = KW5mExpFairingWall_4294755846
+	sym = KW5mExpFairingWall_4294748744
+	attN = bottom,KW5mExpFairingCone_4294755954
+	attN = top,KW5mExpFairingWall_4294755846
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = KW5mExpFairingWall_4294755846
+	partName = Part
+	pos = -25.86119,12.41653,1.002522
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	attm = 0
+	sym = KW5mExpFairingWall_4294748696
+	attN = bottom,KW5mExpFairingWall_4294755890
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = KW5mExpFairingCone_4294748812
+	partName = Part
+	pos = -22.61243,24.21664,1.002522
+	rot = 0,1,0,-4.371139E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 3
+	sidx = 1
+	sqor = 1
+	attm = 0
+	link = KW5mExpFairingWall_4294748744
+	sym = KW5mExpFairingCone_4294755954
+	attN = connect,KW5mExpFairingWall_4294748744
+	attN = bottom,KW5mExpandedFairingBase_4294755998
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnchoredDecoupler
+		isEnabled = True
+		isDecoupled = False
+		EVENTS
+		{
+			Decouple
+			{
+				active = True
+				guiActive = True
+				guiIcon = Decouple
+				guiName = Decouple
+				category = Decouple
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = KW5mExpFairingWall_4294748744
+	partName = Part
+	pos = -22.61368,18.74096,1.002522
+	rot = 0,1,0,-4.371139E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = KW5mExpFairingWall_4294748696
+	sym = KW5mExpFairingWall_4294755890
+	attN = bottom,KW5mExpFairingCone_4294748812
+	attN = top,KW5mExpFairingWall_4294748696
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = KW5mExpFairingWall_4294748696
+	partName = Part
+	pos = -22.61368,12.41653,1.002522
+	rot = 0,1,0,-4.371139E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	attm = 0
+	sym = KW5mExpFairingWall_4294755846
+	attN = bottom,KW5mExpFairingWall_4294748744
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
