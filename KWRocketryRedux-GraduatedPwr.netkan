@@ -1,0 +1,18 @@
+{
+	"spec_version"	: "v1.4",
+	"identifier"	: "KWRocketryRedux-GraduatedPwr",
+	"$kref"			: "#/ckan/github/linuxgurugamer/KWRocketryRedux",
+	"license"		: "CC-BY-SA-3.0",
+	"name"			: "Graduated Power Response Configs",
+	"abstract"		: "For graduated power response on engines",
+	"provides"		: [ "KWPowerResponse" ],
+	"conflicts" : [
+		{ "name" : "KWPowerResponse" }
+	],
+	"install" : [
+		{
+			"find"	 : "KWRocketry/Extras/GraduatedPowerResponseConfigs/GameData/KWRocketry",
+			"install_to":"GameData"
+		}
+	]
+} 
