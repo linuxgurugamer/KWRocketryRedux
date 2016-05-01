@@ -3,11 +3,14 @@
 	"identifier"	: "KWRocketryRedux-InstantPwr",
 	"$kref"			: "#/ckan/github/linuxgurugamer/KWRocketryRedux",
 	"license"		: "CC-BY-SA-3.0",
-	"name"			: "Instant Power Response Configs",
+	"name"			: "KWRocketry Instant Power Response Configs",
 	"abstract"		: "For instant power response on engines",
-	"provides"		: [ "KWPowerResponse" ],
+	"provides"		: [ "KWRocketryRedux-power" ],
 	"conflicts" : [
-		{ "name" : "KWPowerResponse" }
+		{ "name" : "KWRocketryRedux-power" }
+	],
+	"depends" : [
+		{ "name" : "KWRocketryRedux" }
 	],
 	"install" : [
 		{
