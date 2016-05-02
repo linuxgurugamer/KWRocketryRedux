@@ -30,3 +30,18 @@ set FILE="%RELEASEDIR%\KWRocketryRedux-%VERSION%.zip"
 IF EXIST %FILE% del /F %FILE%
 %ZIP% a -tzip %FILE% KWRocketry
 
+rem Now create an install directory which also contains a default config
+mkdir aa
+mkdir aa\KWRocketry
+xcopy /E KWRocketry aa\KWRocketry
+
+rem Copy the GraduatedPowerResponse
+xcopy /E KWRocketry\Extras\GraduatedPowerResponseConfigs\GameData\KWRocketry aa\KWRocketry\GameData\KWRocketry
+cd aa
+
+set FILE="%RELEASEDIR%\KWRocketryRedux-MANUAL-%VERSION%.zip"
+IF EXIST %FILE% del /F %FILE%
+%ZIP% a -tzip %FILE% KWRocketry
+
+cd ..
+rmdir /s aa
