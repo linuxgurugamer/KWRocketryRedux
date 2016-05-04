@@ -3,10 +3,10 @@
 	"URL":"http://ksp-avc.cybutek.net/version.php?id=272",
 	"VERSION":
 	{
-		"MAJOR":3,
-		"MINOR":0,
-		"PATCH":3,
-		"BUILD":0
+		"MAJOR":	3,
+		"MINOR":	0,
+		"PATCH":	4,
+		"BUILD":	0
 	},
 	"KSP_VERSION":
 	{

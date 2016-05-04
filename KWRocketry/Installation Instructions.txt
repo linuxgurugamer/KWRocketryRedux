@@ -1,5 +1,15 @@
 These are the instructions to install the KWRocketryRedux.
 
+There is a new document included with this mod, called one of the following
+depending on which file you downloaded:
+
+	KW Redux Install for Dummies
+	KW Redux Install for Dummies Manual Install
+
+in both MS Word and PDF format.  It is much easier to follow than the 
+following instructions.
+
+
 IMPORTANT:  You MUST install one of the two power response directories,
 otherwise the engines will not work.
 
