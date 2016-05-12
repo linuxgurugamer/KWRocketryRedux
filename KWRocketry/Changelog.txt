@@ -1,5 +1,10 @@
 Changelog:
 
+
+    Fixed techrequired for the KW12mFairingCone
+    Fixed typo in 3mWildcatXR/part.cfg
+
+
 Updated to 3.0.3
 -Updated mass for fins
 -Added MM cfg for FAR for fins
