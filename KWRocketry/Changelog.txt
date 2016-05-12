@@ -1,9 +1,12 @@
 Changelog:
 
+Updated to 3.0.5
+-Fixed techrequired for the KW12mFairingCone
+-Fixed typo in 3mWildcatXR/part.cfg
+-Fixed MM patch to avoid problems when FAR isn't installed.  FOR makes ModuleManager think that the mod exists (should be NEEDS). Also added to the KWRocketry pass.
 
-    Fixed techrequired for the KW12mFairingCone
-    Fixed typo in 3mWildcatXR/part.cfg
-
+Updated to 3.0.4
+-Added Installation4Dummies docs
 
 Updated to 3.0.3
 -Updated mass for fins
