@@ -1,5 +1,8 @@
 Changelog:
 
+Updated to 3.0.6
+-Added new copy of 3mWildcatXR with old spelling for existing craft
+
 Updated to 3.0.5
 -Fixed techrequired for the KW12mFairingCone
 -Fixed typo in 3mWildcatXR/part.cfg
