@@ -1,5 +1,10 @@
 Changelog:
 
+Updated to 3.0.7
+- to remove following warning message from log file: Cannot find fx group of that name for decoupler
+	- Added missing FX info to some fairings
+	- Renamed FX from deploy to decouple in some fairings
+
 Updated to 3.0.6
 -Added new copy of 3mWildcatXR with old spelling for existing craft
 
