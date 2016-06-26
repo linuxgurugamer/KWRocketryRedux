@@ -1,5 +1,18 @@
 Changelog:
 
+Updated to 3.0.11
+- Fixed interstages, changed the ModuleDecouple to be an omni decoupler
+- Fixed structural interstages, added node_stack_bottom2 & made them omni
+  decouplers
+
+Updated to 3.0.10
+- Renamed the community patches interstage file so it won't be loaded
+
+Updated to 3.0.9
+-Replaced _ with ? for B9
+-Changed the B9_Rocketry to B9_Rocketry_HX (with questionmarks)
+-Removed spaces around the &
+
 Updated to 3.0.7
 - to remove following warning message from log file: Cannot find fx group of that name for decoupler
 	- Added missing FX info to some fairings
