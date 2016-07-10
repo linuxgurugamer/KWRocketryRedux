@@ -1,5 +1,9 @@
 Changelog:
 
+Updated to 3.0.12
+- Lower Vesta VR-9D mass for TWR balancing reasons, thanks Y3mo
+- Create a file that makes minThrust 0, thanks @nicogusuarez
+
 Updated to 3.0.11
 - Fixed interstages, changed the ModuleDecouple to be an omni decoupler
 - Fixed structural interstages, added node_stack_bottom2 & made them omni
