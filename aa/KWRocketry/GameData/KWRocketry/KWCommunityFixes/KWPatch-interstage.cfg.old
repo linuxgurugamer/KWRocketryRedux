@@ -1,0 +1,66 @@
+//
+// This patch contributed by somnambulist
+// It switches the interstage fairings over to omni decouplers and removes 
+// the finicky extra node on engines/shrouds. This is convceivably craft 
+// breaking so it might be best to leave it as an optional module.
+
+// Remove second node
+
+@PART[KW1mengine*|KW2mengine*|KW3mengine*|KW5mengineTitanV]:FIRST {
+
+	!node_stack_top2 = 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0
+}
+
+// Shroud changes. Cigarette filter shrouds get switched to omni decuplers
+
+@PART[KW?mDecouplerShroud]:FIRST {
+	
+	!node_stack_top = 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0
+	
+	@MODULE[ModuleDecouple] {		
+		!explosiveNodeID = top
+		%isOmniDecoupler = true
+	}
+}		
+
+@PART[KWadapter2x1]:FIRST {
+
+	@mass = 0.5
+	!node_stack_top = 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0
+	@node_stack_bottom2 = 0.0, -.80, 0.0, 0.0, 1.0, 0.0, 1
+	
+	@MODULE[ModuleDecouple] {		
+		@explosiveNodeID = bottom2
+	}
+}
+
+@PART[KWadapter3x2]:FIRST {
+	
+	@MODEL {
+		@scale = 1.25, 1.65, 1.25 //Scale so it covers all three 2.5m engines
+	}	
+	@node_stack_top = 0.0, -1.2, 0.0, 0.0, 1.0, 0.0, 2
+	@node_stack_bottom = 0.0, -1.415, 0.0, 0.0, -1.0, 0.0, 3
+}
+
+	
+@PART[KW5x3AdapterShroud]:FIRST {
+	@node_stack_top = 0.0, -1.50, 0.0, 0.0, 1.0, 0.0, 3
+}
+
+//Fixed Petal Adapter (Blackleg)
+@PART[KW3mPetalAdapter]:FIRST {
+	@node_stack_top = 0.0, 0.50424, 0.0, 0.0, 1.0, 0.0, 2
+	!node_stack_topFDown = 0.0, 2.10, 0.0, 0.0, -1.0, 0.0, 2
+
+	//Fix Decuple Force Direction
+	@MODULE[ModuleDecouple],1 {
+		@ejectionForce = -250
+	}
+	
+}
+
+//Fixed 5.00m Interstage Node (Blackleg)
+@PART[KW5mDecouplerShroud]:FIRST {
+	@node_stack_bottom2 = 0.0, 0.05, 0.0, 0.0, 1.0, 0.0, 4	
+}

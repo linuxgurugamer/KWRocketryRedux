@@ -1,0 +1,249 @@
+ship = 2.5m Expanded Fairing
+version = 0.24.0
+description = A 2.5m expanded fairing sub assembly.
+type = VAB
+PART
+{
+	part = KW2mExpandedFairingBase_4294735230
+	partName = Part
+	pos = -13.94343,15.63755,0.2394931
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 1
+	sidx = 0
+	sqor = 0
+	attm = 0
+	link = KW2mExpandedFairingCone_4294735186
+	link = KW2mExpandedFairingCone_4294734264
+	attN = connect5,KW2mExpandedFairingCone_4294735186
+	attN = connect6,KW2mExpandedFairingCone_4294734264
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		isDecoupled = False
+		EVENTS
+		{
+			Decouple
+			{
+				active = True
+				guiActive = True
+				guiIcon = Decouple
+				guiName = Decouple
+				category = Decouple
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = KW2mExpandedFairingCone_4294735186
+	partName = Part
+	pos = -13.06843,23.9513,0.2394931
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 3
+	sidx = 0
+	sqor = 1
+	attm = 0
+	link = KW2mExpandedFairingWall_4294735152
+	sym = KW2mExpandedFairingCone_4294734264
+	attN = connect,KW2mExpandedFairingWall_4294735152
+	attN = bottom,KW2mExpandedFairingBase_4294735230
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnchoredDecoupler
+		isEnabled = True
+		isDecoupled = False
+		EVENTS
+		{
+			Decouple
+			{
+				active = True
+				guiActive = True
+				guiIcon = Decouple
+				guiName = Decouple
+				category = Decouple
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = KW2mExpandedFairingWall_4294735152
+	partName = Part
+	pos = -13.06843,20.4513,0.2394931
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = KW2mExpandedFairingWall_4294735120
+	sym = KW2mExpandedFairingWall_4294734226
+	attN = bottom,KW2mExpandedFairingWall_4294735120
+	attN = top,KW2mExpandedFairingCone_4294735186
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = KW2mExpandedFairingWall_4294735120
+	partName = Part
+	pos = -13.06843,16.9513,0.2394931
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	attm = 0
+	sym = KW2mExpandedFairingWall_4294734190
+	attN = top,KW2mExpandedFairingWall_4294735152
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = KW2mExpandedFairingCone_4294734264
+	partName = Part
+	pos = -14.81843,23.9513,0.2394929
+	rot = 0,1,0,-4.371139E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 3
+	sidx = 1
+	sqor = 1
+	attm = 0
+	link = KW2mExpandedFairingWall_4294734226
+	sym = KW2mExpandedFairingCone_4294735186
+	attN = connect,KW2mExpandedFairingWall_4294734226
+	attN = bottom,KW2mExpandedFairingBase_4294735230
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnchoredDecoupler
+		isEnabled = True
+		isDecoupled = False
+		EVENTS
+		{
+			Decouple
+			{
+				active = True
+				guiActive = True
+				guiIcon = Decouple
+				guiName = Decouple
+				category = Decouple
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = KW2mExpandedFairingWall_4294734226
+	partName = Part
+	pos = -14.81843,20.4513,0.2394929
+	rot = 0,1,0,-4.371139E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = KW2mExpandedFairingWall_4294734190
+	sym = KW2mExpandedFairingWall_4294735152
+	attN = bottom,KW2mExpandedFairingWall_4294734190
+	attN = top,KW2mExpandedFairingCone_4294734264
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = KW2mExpandedFairingWall_4294734190
+	partName = Part
+	pos = -14.81843,16.9513,0.2394929
+	rot = 0,1,0,-4.371139E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	attm = 0
+	sym = KW2mExpandedFairingWall_4294735120
+	attN = top,KW2mExpandedFairingWall_4294734226
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}

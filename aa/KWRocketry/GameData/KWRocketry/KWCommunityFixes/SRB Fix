@@ -1,0 +1,90 @@
+// This makes the minimum thrust in SRBs 0, this fixes the ghost thrust issue when thrust is set to 0 in-game.
+
+@PART[KWsrbGlobeI]
+{
+    @MODULE[ModuleEnginesFX]
+    {
+        @minThrust = 0
+    }
+}
+
+
+@PART[KWsrbGlobeV]
+{
+    @MODULE[ModuleEnginesFX]
+    {
+        @minThrust = 0
+    }
+}
+
+
+@PART[KWsrbGlobeVI]
+{
+    @MODULE[ModuleEnginesFX]
+    {
+        @minThrust = 0
+    }
+}
+
+
+@PART[KWsrbGlobeX10S]
+{
+    @MODULE[ModuleEnginesFX]
+    {
+        @minThrust = 0
+    }
+}
+
+
+@PART[KWsrbGlobeX5]
+{
+    @MODULE[ModuleEnginesFX]
+    {
+        @minThrust = 0
+    }
+}
+
+
+@PART[KWsrbUllage]
+{
+    @MODULE[ModuleEnginesFX]
+    {
+        @minThrust = 0
+    }
+}
+
+
+@PART[KWsrbUllageLarge]
+{
+    @MODULE[ModuleEnginesFX]
+    {
+        @minThrust = 0
+    }
+}
+
+
+@PART[KWsrbGlobeX10L]
+{
+    @MODULE[ModuleEnginesFX]
+    {
+        @minThrust = 0
+    }
+}
+
+
+@PART[KWsrbGlobeX2]
+{
+    @MODULE[ModuleEnginesFX]
+    {
+        @minThrust = 0
+    }
+}
+
+
+@PART[KWsrbGlobeX]
+{
+    @MODULE[ModuleEnginesFX]
+    {
+        @minThrust = 0
+    }
+}

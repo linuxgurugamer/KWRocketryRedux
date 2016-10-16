@@ -1,0 +1,18 @@
+{
+	"NAME":"KW-Rocketry-Community-Fixes",
+	"URL":"http://ksp-avc.cybutek.net/version.php?id=205",
+	"DOWNLOAD":"http://spacedock.info/mod/51/KW%20Rocketry%20-%20Community%20Fixes/download/",
+	"VERSION":
+	{
+		"MAJOR":0,
+		"MINOR":4,
+		"PATCH":11,
+		"BUILD":0
+	},
+	"KSP_VERSION":
+	{
+		"MAJOR":1,
+		"MINOR":1,
+		"PATCH":0
+	}
+}
