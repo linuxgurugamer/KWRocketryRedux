@@ -53,4 +53,4 @@ IF EXIST %FILE% del /F %FILE%
 %ZIP% a -tzip %FILE% KWRocketry
 
 cd ..
-rmdir /s aa
+rmdir /y/s aa
