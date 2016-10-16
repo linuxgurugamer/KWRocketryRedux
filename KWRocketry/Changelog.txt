@@ -1,5 +1,8 @@
 Changelog:
 
+Updated to 3.0.13
+- added patch to change "category = 0" to "category = engine"
+
 Updated to 3.0.12
 - Lower Vesta VR-9D mass for TWR balancing reasons, thanks Y3mo
 - Create a file that makes minThrust 0, thanks @nicogusuarez
