@@ -48,7 +48,7 @@ copy "KW Redux Install For Dummies Manual Install.docx" aa\KWRocketry
 copy "KW Redux Install For Dummies Manual Install.pdf" aa\KWRocketry
 cd aa
 
-set FILE="%RELEASEDIR%\KWRocketryRedux-MANUAL-%VERSION%.zip"
+set FILE="%RELEASEDIR%\KWRocketryRedux-StandardInstall-%VERSION%.zip"
 IF EXIST %FILE% del /F %FILE%
 %ZIP% a -tzip %FILE% KWRocketry
 

@@ -1,5 +1,10 @@
 Changelog:
 
+updated to 3.0.23
+	Fixed Ullage motor sounds
+	Removed unnecessary MM patch: KS-engine-cat
+	Added tags to all parts
+
 Updated to 3.0.13
 - added patch to change "category = 0" to "category = engine"
 
