@@ -1,0 +1,20 @@
+module = Part
+
+tags = [kwrock
+
+:AFTER[KWRocketry]
+
+"KW3mengineWildcar" engine
+
+Old Fairings Nodes
+SRB Cone nodes
+5m expanded cone shell MIA?
+
+
+===================== Balance =====================
+Batteries (Large) - Quantity
+
+
+
+===================== New =====================
+KW ADAPTER TANKS
