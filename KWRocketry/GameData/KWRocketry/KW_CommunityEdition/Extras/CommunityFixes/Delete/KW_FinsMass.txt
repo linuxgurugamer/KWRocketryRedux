@@ -1,0 +1,11 @@
+//
+@PART[KWFin]:NEEDS[KWRocketry]:FIRST
+{
+	@mass = 0.155
+}
+
+//
+@PART[KWFinGC]:NEEDS[KWRocketry]:FIRST
+{
+	@mass = 0.168
+}
