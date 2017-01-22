@@ -1,0 +1,357 @@
+ship = 3.75m Inline Fairing
+version = 0.24.0
+description = A 3.75m inline fairing sub assembly.
+type = VAB
+PART
+{
+	part = KW3mFairingBase_4294748546
+	partName = Part
+	pos = -11.01035,7.435494,1.447251
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 1
+	sidx = 0
+	sqor = 0
+	attm = 0
+	link = KW3mFairingCone_4294748404
+	link = KW3mFairingCone_4294747486
+	link = KW3mFairingCone_4294747376
+	attN = connect7,KW3mFairingCone_4294748404
+	attN = connect8,KW3mFairingCone_4294747486
+	attN = connect9,KW3mFairingCone_4294747376
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		isDecoupled = False
+		EVENTS
+		{
+			Decouple
+			{
+				active = True
+				guiActive = True
+				guiIcon = Decouple
+				guiName = Decouple
+				category = Decouple
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = KW3mFairingCone_4294748404
+	partName = Part
+	pos = -11.01035,15.34237,1.447251
+	rot = 0,1,0,0
+	attRot = 0,0.9999999,0,0
+	mir = 1,1,1
+	istg = 1
+	dstg = 3
+	sidx = 0
+	sqor = 1
+	attm = 0
+	link = KW3mFairingWall_4294748370
+	sym = KW3mFairingCone_4294747486
+	sym = KW3mFairingCone_4294747376
+	attN = connect,KW3mFairingWall_4294748370
+	attN = bottom,KW3mFairingBase_4294748546
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnchoredDecoupler
+		isEnabled = True
+		isDecoupled = False
+		EVENTS
+		{
+			Decouple
+			{
+				active = True
+				guiActive = True
+				guiIcon = Decouple
+				guiName = Decouple
+				category = Decouple
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = KW3mFairingWall_4294748370
+	partName = Part
+	pos = -11.01035,11.59237,1.447251
+	rot = 0,1,0,0
+	attRot = 0,0.9999999,0,0
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = KW3mFairingWall_4294748338
+	sym = KW3mFairingWall_4294747448
+	sym = KW3mFairingWall_4294747338
+	attN = bottom,KW3mFairingWall_4294748338
+	attN = top,KW3mFairingCone_4294748404
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = KW3mFairingWall_4294748338
+	partName = Part
+	pos = -11.01035,7.842368,1.447251
+	rot = 0,1,0,0
+	attRot = 0,0.9999999,0,0
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	attm = 0
+	sym = KW3mFairingWall_4294747412
+	sym = KW3mFairingWall_4294747302
+	attN = top,KW3mFairingWall_4294748370
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = KW3mFairingCone_4294747486
+	partName = Part
+	pos = -11.01035,15.34237,1.446795
+	rot = 0,0.5,0,-0.8660254
+	attRot = 0,0.9999999,0,0
+	mir = 1,1,1
+	istg = 1
+	dstg = 3
+	sidx = 1
+	sqor = 1
+	attm = 0
+	link = KW3mFairingWall_4294747448
+	sym = KW3mFairingCone_4294748404
+	sym = KW3mFairingCone_4294747376
+	attN = connect,KW3mFairingWall_4294747448
+	attN = bottom,KW3mFairingBase_4294748546
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnchoredDecoupler
+		isEnabled = True
+		isDecoupled = False
+		EVENTS
+		{
+			Decouple
+			{
+				active = True
+				guiActive = True
+				guiIcon = Decouple
+				guiName = Decouple
+				category = Decouple
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = KW3mFairingWall_4294747448
+	partName = Part
+	pos = -11.01035,11.59237,1.446795
+	rot = 0,0.5,0,-0.8660254
+	attRot = 0,0.9999999,0,0
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = KW3mFairingWall_4294747412
+	sym = KW3mFairingWall_4294748370
+	sym = KW3mFairingWall_4294747338
+	attN = bottom,KW3mFairingWall_4294747412
+	attN = top,KW3mFairingCone_4294747486
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = KW3mFairingWall_4294747412
+	partName = Part
+	pos = -11.01035,7.842368,1.446795
+	rot = 0,0.5,0,-0.8660254
+	attRot = 0,0.9999999,0,0
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	attm = 0
+	sym = KW3mFairingWall_4294748338
+	sym = KW3mFairingWall_4294747302
+	attN = top,KW3mFairingWall_4294747448
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = KW3mFairingCone_4294747376
+	partName = Part
+	pos = -11.01035,15.34237,1.447707
+	rot = 0,-0.5000001,0,-0.8660254
+	attRot = 0,0.9999999,0,0
+	mir = 1,1,1
+	istg = 1
+	dstg = 3
+	sidx = 2
+	sqor = 1
+	attm = 0
+	link = KW3mFairingWall_4294747338
+	sym = KW3mFairingCone_4294748404
+	sym = KW3mFairingCone_4294747486
+	attN = connect,KW3mFairingWall_4294747338
+	attN = bottom,KW3mFairingBase_4294748546
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnchoredDecoupler
+		isEnabled = True
+		isDecoupled = False
+		EVENTS
+		{
+			Decouple
+			{
+				active = True
+				guiActive = True
+				guiIcon = Decouple
+				guiName = Decouple
+				category = Decouple
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = KW3mFairingWall_4294747338
+	partName = Part
+	pos = -11.01035,11.59237,1.447707
+	rot = 0,-0.5000001,0,-0.8660254
+	attRot = 0,0.9999999,0,0
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = KW3mFairingWall_4294747302
+	sym = KW3mFairingWall_4294748370
+	sym = KW3mFairingWall_4294747448
+	attN = bottom,KW3mFairingWall_4294747302
+	attN = top,KW3mFairingCone_4294747376
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = KW3mFairingWall_4294747302
+	partName = Part
+	pos = -11.01035,7.842368,1.447707
+	rot = 0,-0.5000001,0,-0.8660254
+	attRot = 0,0.9999999,0,0
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	attm = 0
+	sym = KW3mFairingWall_4294748338
+	sym = KW3mFairingWall_4294747412
+	attN = top,KW3mFairingWall_4294747338
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
