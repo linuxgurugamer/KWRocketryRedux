@@ -3,3 +3,9 @@ Kickasskyle and Winston
 Virtualgenius for the "Installation for Dummies" docs
 
 And countless people who have suggested changes and updates
+
+--
+For the Rebalancing update:
+
+CarnageINC for doing a lot of work in spreadsheets with me doing the majority
+of the calculations for the rebalancing project
