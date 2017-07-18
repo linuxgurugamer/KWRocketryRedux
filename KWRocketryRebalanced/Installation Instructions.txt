@@ -1,0 +1,28 @@
+These are the instructions to install KWRocketry Rebalanced.
+
+See the changelog for specifics on the differences between this and the old
+KWRocketryRedux mod
+
+How to install:
+Firstly, Insure any older version of KW has been removed. (GameData/KWRocketry)
+
+
+----MAIN INSTALLATION----
+
+KWRocketry comes with an optional patch, which is installed using the included
+PatchManager mod  There is no need to worry about merging directories anymore
+
+In the GameData directory, you will find the following directories:
+
+	KWRocketry
+	PatchManager
+
+The PatchManager is optional, and is only needed if you want to install the
+Graduated Power Response configurations
+
+Copy these directories to the GameData directory in your KSP game.
+
+And that's it.  
+
+Enjoy 
+
