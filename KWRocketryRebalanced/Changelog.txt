@@ -1,5 +1,9 @@
 Changelog:
 
+3.2.1
+	Removed unnecessary directory in Extras folder
+	Added patch to add built-in decouplers to the two side tanks
+
 3.2.0
 	All tanks have had their masses and volumes recalculated.  Most smaller
 	taks ended up lighter and with less fuel, most larger tanks ended up
