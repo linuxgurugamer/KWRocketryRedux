@@ -1,6 +1,9 @@
 Changelog:
 
-3.2.1
+3.2.3
+	Added to patch to disable fuel crossfeed
+
+3.2.2
 	Removed unnecessary directory in Extras folder
 	Added patch to add built-in decouplers to the two side tanks
 
