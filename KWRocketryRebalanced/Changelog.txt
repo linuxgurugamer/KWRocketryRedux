@@ -1,5 +1,9 @@
 Changelog:
 
+3.2.4
+	Added 1.875m fairings
+	Fixed some minor syntax errors in the other fairing configs
+
 3.2.3
 	Added to patch to disable fuel crossfeed
 
