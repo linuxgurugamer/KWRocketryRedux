@@ -1,5 +1,9 @@
 Changelog:
 
+3.2.4.1
+	Fixed gap in 1.875 expanded fairing
+	Changed bulkhead profile for 1.875 expanded fairing from size1 to size1p5
+
 3.2.4
 	Added 1.875m fairings
 	Fixed some minor syntax errors in the other fairing configs
