@@ -1,5 +1,14 @@
 Changelog:
 
+3.2.5
+	Renamed Pancake tanks to eliminate duplicate part titles, and to make
+		them more consistent with the other parts
+	Thanks to @Tyko for the following:
+	Added patches (via Patchmanager) to rename parts
+		one removes the "KW Rocketry" entirelly from the part name
+		Second replaces that with "KW-R"
+	Added 1.875 decouplers
+
 3.2.4.1
 	Fixed gap in 1.875 expanded fairing
 	Changed bulkhead profile for 1.875 expanded fairing from size1 to size1p5
