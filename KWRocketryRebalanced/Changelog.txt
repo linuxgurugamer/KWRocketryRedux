@@ -1,5 +1,8 @@
 Changelog:
 
+3.2.5.1
+	Updated version info for 1.4.1
+
 3.2.5
 	Renamed Pancake tanks to eliminate duplicate part titles, and to make
 		them more consistent with the other parts
