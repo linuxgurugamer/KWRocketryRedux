@@ -1,4 +1,6 @@
 Changelog:
+3.2.5.3
+	Fixed thrust of the SPS engines, thanks to forum user @sebi.zzr
 
 3.2.5.2
 	Fixed exhaust plume of RCS.  This change is now using a new module RCSFX
