@@ -3,9 +3,10 @@
 set RELEASEDIR=d:\Users\jbb\release
 set ZIP="c:\Program Files\7-zip\7z.exe"
 
+copy KWRocketryRebalanced.version GameData\KWRocketry
 
 
-copy KWRocketryRebalanced\GameData\KWRocketry\KWRocketryRebalanced.version a.version
+copy KWRocketryRebalanced.version a.version
 set VERSIONFILE=a.version
 rem set /p VERSION= "Enter version: "
 
@@ -31,5 +32,5 @@ del a.version
 
 set FILE="%RELEASEDIR%\KWRocketryRebalanced-%VERSION%.zip"
 IF EXIST %FILE% del /F %FILE%
-%ZIP% a -tzip %FILE% KWRocketryRebalanced
+%ZIP% a -tzip %FILE% GameData Extras
 
