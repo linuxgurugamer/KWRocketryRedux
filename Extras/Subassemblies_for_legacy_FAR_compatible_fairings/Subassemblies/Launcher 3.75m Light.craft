@@ -298,9 +298,9 @@ PART
 	link = KWsrbUllage_4293272812
 	link = KWsrbUllage_4293272754
 	link = KWsrbUllage_4293272696
-	link = KW3mengineWildcarXR_4293272638
+	link = KW3mengineWildcatXR_4293272638
 	attN = top,KW3mFairingBase_4293273106
-	attN = bottom,KW3mengineWildcarXR_4293272638
+	attN = bottom,KW3mengineWildcatXR_4293272638
 	EVENTS
 	{
 	}
@@ -759,7 +759,7 @@ PART
 }
 PART
 {
-	part = KW3mengineWildcarXR_4293272638
+	part = KW3mengineWildcatXR_4293272638
 	partName = Part
 	pos = -24.56612,4.749538,-0.6791067
 	rot = 0,0,0,1
@@ -952,7 +952,7 @@ PART
 	attm = 0
 	link = KW3mtankL0.5_4293272512
 	attN = bottom,KW3mtankL0.5_4293272512
-	attN = top,KW3mengineWildcarXR_4293272638
+	attN = top,KW3mengineWildcatXR_4293272638
 	EVENTS
 	{
 	}

@@ -421,9 +421,9 @@ PART
 	link = strutConnectorHeavy_4293426178
 	link = KWSASmodule3mHalf_4293426122
 	link = KWSASmodule3mHalf_4293426086
-	link = KW3mengineWildcarXR_4293426050
+	link = KW3mengineWildcatXR_4293426050
 	attN = top,KW3mtankL0.5_4293426522
-	attN = bottom,KW3mengineWildcarXR_4293426050
+	attN = bottom,KW3mengineWildcatXR_4293426050
 	EVENTS
 	{
 	}
@@ -646,7 +646,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: KW3mengineWildcarXR_-1; pos: 6.067988E-05,-0.260725,0.01967049; dir: 0.0002317404,-0.997166,0.07523266
+	cData = tgt: KW3mengineWildcatXR_-1; pos: 6.067988E-05,-0.260725,0.01967049; dir: 0.0002317404,-0.997166,0.07523266
 	sym = strutConnectorHeavy_4293426178
 	srfN = srfAttach,KW3mtankL2_4293426470
 	EVENTS
@@ -669,7 +669,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: KW3mengineWildcarXR_-1; pos: 6.30544E-05,-0.2709446,0.02044106; dir: 0.0002317404,-0.997166,0.07523266
+	cData = tgt: KW3mengineWildcatXR_-1; pos: 6.30544E-05,-0.2709446,0.02044106; dir: 0.0002317404,-0.997166,0.07523266
 	sym = strutConnectorHeavy_4293426234
 	srfN = srfAttach,KW3mtankL2_4293426470
 	EVENTS
@@ -819,7 +819,7 @@ PART
 }
 PART
 {
-	part = KW3mengineWildcarXR_4293426050
+	part = KW3mengineWildcatXR_4293426050
 	partName = Part
 	pos = -24.73845,8.151909,2.355391
 	rot = 0,0,0,1
@@ -1012,7 +1012,7 @@ PART
 	attm = 0
 	link = KW3mtankL4_4293425924
 	attN = bottom,KW3mtankL4_4293425924
-	attN = top,KW3mengineWildcarXR_4293426050
+	attN = top,KW3mengineWildcatXR_4293426050
 	EVENTS
 	{
 	}
