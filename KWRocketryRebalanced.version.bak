@@ -1,12 +1,12 @@
 {
     "NAME": "KWRocketryRebalanced",
-    "URL": "http://ksp.spacetux.net/avc/KWRocketryRebalanced",
+    "URL": "https://raw.githubusercontent.com/linuxgurugamer/KWRocketryRedux/Rebalanced/KWRocketryRebalanced/GameData/KWRocketry/KWRocketryRebalanced.version",
     "DOWNLOAD": "https://github.com/linuxgurugamer/KWRocketryRedux/releases",
     "VERSION": {
         "MAJOR": 3,
         "MINOR": 2,
         "PATCH": 5,
-        "BUILD": 6
+        "BUILD": 5
     },
     "KSP_VERSION": {
         "MAJOR": 1,
@@ -20,7 +20,7 @@
     },
     "KSP_VERSION_MAX": {
         "MAJOR": 1,
-        "MINOR": 5,
+        "MINOR": 4,
         "PATCH": 99
     }
 }
