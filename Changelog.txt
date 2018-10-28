@@ -1,4 +1,8 @@
 Changelog:
+
+3.2.5.7
+	Rebalanced masses of fairing bases, thanks to @mihara
+	
 3.2.5.6
 	Version bump for 1.5
 	
