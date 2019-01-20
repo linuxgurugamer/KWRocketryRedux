@@ -1,5 +1,8 @@
 Changelog:
 
+3.2.6
+	Updated all part with bulkheadProfiles
+
 3.2.5.7
 	Rebalanced masses of fairing bases, thanks to @mihara
 	
