@@ -1,5 +1,8 @@
 Changelog:
 
+3.2.6.1
+	Merged in the rebalanced branch with some minor mass adjustments
+	
 3.2.6
 	Updated all part with bulkheadProfiles
 
