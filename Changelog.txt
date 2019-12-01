@@ -1,7 +1,10 @@
 Changelog:
 
+3.2.7
+	Updated for KSP 1.8
+
 3.2.6.2
-    Fixed typo in the v-35 LFT tank, which left it without a full tank of oxidizer
+	Fixed typo in the v-35 LFT tank, which left it without a full tank of oxidizer
 
 3.2.6.1
 	Merged in the rebalanced branch with some minor mass adjustments
