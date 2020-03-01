@@ -1,5 +1,9 @@
 Changelog:
 
+3.2.7.1
+	Thanks to form user @Initar for this:
+		Fixed fairing bases for 1.8/1.9
+
 3.2.7
 	Updated for KSP 1.8
 
