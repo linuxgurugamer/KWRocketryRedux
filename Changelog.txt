@@ -1,5 +1,8 @@
 Changelog:
 
+3.2.7.2
+	Fixed a number of parts which had two bulkheadProfiles 
+
 3.2.7.1
 	Thanks to form user @Initar for this:
 		Fixed fairing bases for 1.8/1.9
