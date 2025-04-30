@@ -1,5 +1,10 @@
 Changelog:
 
+3.2.7.3
+	Updated version file to use github for new version info
+	Thanks to github user @BirghtUniverse for this:
+		Added localization support for all the config files, and added
+		Chinese translation
 3.2.7.2
 	Fixed a number of parts which had two bulkheadProfiles 
 
