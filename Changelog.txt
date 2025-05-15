@@ -1,9 +1,8 @@
 Changelog:
 
 3.2.7.4
-	Thanks to github user for notifying me about incorrect description for the SRB nosecone
-	Removed duplicated lines in the localization files which had incorrect
-	data
+	Thanks to github user @m5000 for notifying me about incorrect description for the SRB nosecone
+	Removed duplicated lines in the localization files which had incorrect data
 
 3.2.7.3
 	Updated version file to use github for new version info
