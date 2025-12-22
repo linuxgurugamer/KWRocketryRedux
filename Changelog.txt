@@ -1,5 +1,21 @@
 Changelog:
 
+3.2.8
+	Added config for VABOrganizer
+	Thanks to github user @jeremyshannon for this:
+		Fix missing name entry for Globe SRB V
+	Thanks to github user @KSAMissionCtrl for pointing out the following issues which have all been fixed:
+		There are over 50 parts with multiple bulkheadProfiles defined but these are the ones which have different definitions:
+			KWFuelAdapter5x3
+			KWFuelAdapter5x2
+			KW3Sidetank
+			KW2Sidetank
+			KW5x3AdapterShroud
+			KWSASmodule5mHalf
+			KWSASmodule3mHalf
+			KWSASmodule2mHalf
+		Additionally the part strutConnectorHeavy has two different tags
+	
 3.2.7.4
 	Thanks to github user @m5000 for notifying me about incorrect description for the SRB nosecone
 	Removed duplicated lines in the localization files which had incorrect data
