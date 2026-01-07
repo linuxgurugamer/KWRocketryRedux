@@ -1,5 +1,8 @@
 Changelog:
 
+3.2.8.1
+	Fixed syntax error in VABOrganizer.cfg
+
 3.2.8
 	Added config for VABOrganizer
 	Thanks to github user @jeremyshannon for this:
